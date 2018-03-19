@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数独游戏</string>
+    <string name="main_title">数独游戏</string>
+    <string name="continue_label">继续游戏</string>
+    <string name="newgame_label">新游戏</string>
+    <string name="about_label">关于游戏</string>
+    <string name="exit_label">退出</string>
+    
+    <string name="newgame_title">难度级别</string>
+    <string name="easy_label">简单</string>
+    <string name="medium_label">一般</string>
+    <string name="hard_label">困难</string>
+    
+    <string name="game_title">数独游戏</string>
+    <string name="no_moves_label">没有可填数字</string>
+    <string name="keypad_title">数字输入选择键盘</string>
+    
+    <string name="settings_label">设置...</string>
+    <string name="settings_title">数独游戏设置</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">音乐</string>
+    <string name="music_summary">播放背景音乐</string>
+    <string name="hints_title">提示</string>
+    <string name="hints_summary">游戏时显示提示</string>
+    
+    <string name="about_title">关于数独游戏</string>
+    <string name="about_text">\
+                   数独 是一种逻辑性的数字填充游戏，玩家须以数字填进每一格，
+       而每行、每列和每个宫（即3x3的大格）有齐1至9所有数字。
+       游戏设计者会提供一部分的数字，使谜题只有一个答案。
+        一个已解答的数独其实是一种多了宫的限制的拉丁方阵，
+                   因为同一个数字不可能在同一行、列或宫中出现多于一次。
+        　　单元格和值 一个数独谜题通常包含有9x9=81个单元格，
+        每个单元格仅能填写一个值。对一个未完成的数独题，
+        有些单元格中已经填入了值，另外的单元格则为空，
+        等待解题者来完成。
+　　 行和列 习惯上，横为行，纵为列，在这里也不例外。
+        行由横向的9个单元格组成，而列由纵向的9个单元格组成。
+        很明显，整个谜题由9行和9列组成。为了避免混淆，
+        这里用大写英文字母和数字分别表示行和列。
+        例如，单元格[G6]指的是行G和第6列交界处的单元格，
+        它已填入了值7。区块术语区块指的是起始于特定位置的
+        9个相邻的单元格组。在上图中，区块用交替相间的
+        背景颜色来注明。例如，对于最左上角的区块，我们表示为
+        起始于[A1]的区块。单元 任何一行，一列或一个区块
+        都是一个单元。每个单元都必须包含全部但不重复的数字1到9。
+        </string>
+
+</resources>
